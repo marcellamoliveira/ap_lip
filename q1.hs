@@ -3,8 +3,6 @@ data Arvore a = Vazia
               deriving (Show)
 
 type Coordenada = (Int, Int)
-
-
 calcularCoord :: Arvore a -> Arvore (a, Coordenada)
 calcularCoord arvore = fst (auxiliar arvore 1 0)
   where
@@ -37,7 +35,8 @@ arvoreExemplo = No 'a'
                   (No 'h' Vazia Vazia))
 
 
+-- função que roda o programa
 main :: IO ()
 main = do
-  let resultado = calcularCoord arvoreExemplo  -- Calcula as coordenadas da árvore
-  imprimirCoord resultado  -- Imprime as coordenadas calculadas
+  let resultado = calcularCoord arvoreExemplo 
+  imprimirCoord resultado  
