@@ -1,6 +1,8 @@
-# Avaliação Prática - Lip
-Marcella Mesquita Oliveira
+## Avaliação Prática - Lip
 
-Lia Linhares Carvalhedo
+##Linguagem escolhida: Haskell
 
-Linguagem escolhida: Haskell
+Marcella Mesquita Oliveira 553095
+Lia Linhares Carvalhedo 554165
+
+Dataflow Variables: Em nenhuma das questôes se viu a necessidade dessas variáveis, principalmente pela escolha da linguagem Haskell. 
